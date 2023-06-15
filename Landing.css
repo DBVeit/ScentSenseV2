@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	color:  white;
+}
+
+.header-btn button{
+	position: absolute;
+	width: 70px;
+	height: 29px;
+	left: 103px;
+	top: 79px;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	display: inline-block;
+	color: white;
+}
+
+.fragrance-txt{
+	font-family: ;
+	position: absolute;
+	width: 492px;
+	height: 297px;
+	left: 138px;
+	top: 244px;
+	font-family: arial;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 70px;
+	line-height: 85px;
+	color: #C8C8C8;
+}
+
+.tool-txt{
+	position: absolute;
+	left: 23.28%;
+	right: 28.78%;
+	top: 86.61%;
+	bottom: -11.12%;
+
+	font-family: arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: rgba(255, 255, 255, 0.8);
+
+	opacity: 0.7;
+}
