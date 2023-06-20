@@ -58,27 +58,101 @@ body{
 	opacity: 0.7;
 }
 
+.back_btn{
+	margin-left: 5%;
+	margin-top: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 25px;
+}
+
+.interative_box{
+	border-radius: 30px;
+	background-color: black;
+	width: 50%;
+	height: 550px;
+	margin-left: 25%;
+}
+
+.question_txt{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 50px;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+.btn_box{
+	margin-left: 25%;
+}
+
+/*Question1*/
 .gender_btn{
-	height: 450px;
-	width: 320px;
+	height: 250px;
+	width: 150px;
 	background-color: rgb(66, 66, 66);
 	border-radius: 30px;
 	border: none;
 	transition-duration: 1s;
 	align-items: center;
 	cursor: pointer;
+	background-size:cover
 }
 
-.gender_btn :hover{
-	background-color: rgb(34, 34, 34);
+.gender_btn:hover{
+	background-color: rgb(250, 250, 250);
 	transition-duration: 1s;
+	background-size:cover
 }
 
 .gender_btn_img{
-	height: 450px;
-	width: 320px;
+	height: 220px;
+	width: 120px;
 	align-items: center;
 	transition-duration: 1s;
 	object-fit: cover;
 	border-radius: 30px;
+	background-size:cover
+}
+
+.female_btn{
+	float: left;
+}
+
+.male_btn{
+	margin-left: 40%;
+}
+
+/*Question2*/
+.ocasion_btn{
+	width: 130px;
+	height: 100px;
+	background-color: rgb(66, 66, 66);
+	border-radius: 30px;
+	border: none;
+	transition-duration: 1s;
+	align-items: center;
+	cursor: pointer;
+	background-size:cover
+}
+
+.ocasion_btn:hover{
+	background-color: rgb(250, 250, 250);
+	transition-duration: 1s;
+	background-size:cover
+}
+
+.ocasion_btn_img{
+	width: 120px;
+	height: 100px;
+	align-items: center;
+	transition-duration: 1s;
+	object-fit: cover;
+	border-radius: 30px;
+	background-size:cover
+}
+
+.casual_btn, .formal_btn, .sport_btn, .romantic_btn, .open_air_btn, .party_btn{
+	width: 140px;
+	height: 100px;
 }
