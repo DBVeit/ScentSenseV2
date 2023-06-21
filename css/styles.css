@@ -1,6 +1,10 @@
+html{
+	height: 100%;
+}
+
 body{
-	background-color: #291026;
 	color:  white;
+	background-image: radial-gradient(#281026, black);
 }
 
 .vignette {
@@ -58,10 +62,18 @@ body{
 }
 
 .back_btn{
-	margin-left: 5%;
+	margin-left: 3%;
 	margin-top: 20px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.5s;
+}
+
+.back_btn:active{
+	color: 424242;
+	transition-duration: 0.5s;
 }
 
 .interative_box{
@@ -85,11 +97,24 @@ body{
 	margin-left: 25%;
 }
 
+.btn_box2{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+.btn_box3{
+	margin-left: 16%;
+}
+
+.btn_box table{
+	margin: auto;
+}
+
 /*Question1*/
 .gender_btn{
 	height: 250px;
 	width: 150px;
-	background-color: rgb(66, 66, 66);
+	background-color: #424242;
 	border-radius: 30px;
 	border: none;
 	transition-duration: 1s;
@@ -136,7 +161,7 @@ body{
 	backface-visibility: hidden;
 }
 
-.ocasion_btn{
+.ocasion_btn, .category_btn, .intensity_btn{
 	text-align: center;
 	border-radius: 30px;
 	border: none;
@@ -151,6 +176,26 @@ body{
 	text-align: center;
 }
 
+.category_btn_img, .intensity_btn_img{
+	border-radius: 50px;
+	background-color: grey;
+	width: 120px;
+	height: 100px;
+	display: block;
+	align-items: center;
+	transition-duration: 1s;
+	object-fit: cover;
+	border-radius: 30px;
+	background-size:cover;
+	backface-visibility: hidden;
+}
+
+.category_btn{
+	border-radius: 100px;
+	background-color: grey;
+	transition-duration: 0.5s;
+}
+
 
 .container_btn{
 	width: 140px;
@@ -162,10 +207,56 @@ body{
 .container_btn:hover{
 	cursor: pointer;
 	transition-duration: 1s;
-	
+	opacity: 0.3;
+}
+
+.container_btn:hover .ocasion_btn_img{
+	opacity: 0.1;
+}
+
+.container_btn:hover .descripton_text{
+	opacity: 1;
 }
 
 .descripton_text{
 	font-size: 15px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.result_txt{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+.result_btn_img{
+	height: 400px;
+	width: 300px;
+	align-items: center;
+	transition-duration: 1s;
+	object-fit: cover;
+	background-size:cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result_box{
+	background-color: black;
+}
+
+.table_result{
+	padding: 20px;
+	display: block;
+	margin-left: 15%;
+  	margin-right: auto;
+}
+
+.result_container_btn{
+	padding: 10px;
+	float: left;
+}
+
+.result_text
