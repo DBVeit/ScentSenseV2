@@ -106,6 +106,11 @@ body{
 	margin-left: 16%;
 }
 
+.btn_box_intensity{
+	margin-left: 18%;
+}
+
+
 .btn_box table{
 	margin: auto;
 }
@@ -179,8 +184,6 @@ body{
 .category_btn_img, .intensity_btn_img{
 	border-radius: 50px;
 	background-color: grey;
-	width: 120px;
-	height: 100px;
 	display: block;
 	align-items: center;
 	transition-duration: 1s;
@@ -191,10 +194,18 @@ body{
 }
 
 .category_btn{
-	border-radius: 100px;
-	background-color: grey;
-	transition-duration: 0.5s;
-}
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100px; /* Defina a largura desejada */
+		height: 100px; /* Defina a altura desejada */
+		background-color: gray; /* Defina a cor de fundo desejada */
+		color: white; /* Defina a cor do texto desejada */
+		border: 2px solid darkgray; /* Defina a cor da borda desejada */
+		border-radius: 5px; /* Defina o raio da borda desejado para arredondar os cantos */
+	  }
+
 
 
 .container_btn{
@@ -202,8 +213,8 @@ body{
 	height: 100px;
 	transition-duration: 1s;
 	position: relative;
-}
 
+}
 .container_btn:hover{
 	cursor: pointer;
 	transition-duration: 1s;
@@ -216,6 +227,11 @@ body{
 
 .container_btn:hover .descripton_text{
 	opacity: 1;
+}
+
+.container_btn a{
+	text-decoration: none;
+	color: white;
 }
 
 .descripton_text{
@@ -232,15 +248,12 @@ body{
 }
 
 .result_btn_img{
-	height: 400px;
-	width: 300px;
+	height: 90vh;
 	align-items: center;
+	
 	transition-duration: 1s;
-	object-fit: cover;
-	background-size:cover;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+
+	margin-left: 25%;
 }
 
 .result_box{
